@@ -35,3 +35,20 @@ persist_directory/
 # OS Files
 .DS_Store
 Thumbs.db
+
+
+# OpenAI Keys
+.env
+
+# Vector Stores
+faiss_index/
+chroma_db/
+
+# Uploaded PDFs
+uploaded_documents/
+
+# Cache
+.cache/
+
+# Logs
+logs/

@@ -31,10 +31,8 @@ st.set_page_config(
 )
 
 # Change this path if your Qwen model is stored elsewhere.
-MODEL_PATH = os.getenv(
-    "QWEN_MODEL_PATH",
-    r"C:\Users\Lenovo\Desktop\qwen0.5 llm model"
-)
+MODEL_PATH = "Qwen/Qwen2.5-0.5B-Instruct"
+
 
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 CHUNK_SIZE = 500
@@ -134,16 +132,10 @@ def load_embedding_model():
 
 @st.cache_resource
 def load_llm():
-    tokenizer = AutoTokenizer.from_pretrained(
-        MODEL_PATH,
-        local_files_only=True
-    )
+    tokenizer =tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 
-    model = AutoModelForCausalLM.from_pretrained(
-        MODEL_PATH,
-        local_files_only=True
-    )
-
+    model = model = AutoModelForCausalLM.from_pretrained(MODEL_PATH)
+    
     hf_pipeline = pipeline(
         "text-generation",
         model=model,

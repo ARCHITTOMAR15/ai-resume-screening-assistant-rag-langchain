@@ -9,9 +9,29 @@ Demo](https://ai-resume-screening-assistant-rag-langchain-4kkvqwmjm92h2jmfwo.str
 **[GitHub
 Repository](https://github.com/ARCHITTOMAR15/ai-resume-screening-assistant-rag-langchain)**
 
-<p align="right">
-  <img src="streamlit_ui.png" width="400">
-</p>
+<table>
+<tr>
+<td width="55%" valign="middle">
+
+🚀 <a href="https://ai-resume-screening-assistant-rag-langchain-4kkvqwmjm92h2jmfwo.streamlit.app/">
+Live Streamlit Demo
+</a>
+
+<br>
+
+📂 <a href="https://github.com/ARCHITTOMAR15/ai-resume-screening-assistant-rag-langchain">
+GitHub Repository
+</a>
+
+</td>
+
+<td width="45%" align="right">
+
+<img src="streamlit_ui.png" width="350">
+
+</td>
+</tr>
+</table>
 
 
 ------------------------------------------------------------------------

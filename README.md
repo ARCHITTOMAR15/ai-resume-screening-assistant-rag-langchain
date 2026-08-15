@@ -22,7 +22,7 @@ GitHub Repository
 
 <td width="60%" align="right">
 
-<img src="streamlit_ui.png" width="750" height="350">
+<img src="streamlit_ui.png" width="750" height="500">
 
 </td>
 </tr>

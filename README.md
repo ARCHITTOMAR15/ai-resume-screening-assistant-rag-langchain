@@ -20,9 +20,9 @@ GitHub Repository
 
 </td>
 
-<td width="45%" align="right">
+<td width="55%" align="right">
 
-<img src="streamlit_ui.png" width="500">
+<img src="streamlit_ui.png" width="700">
 
 </td>
 </tr>

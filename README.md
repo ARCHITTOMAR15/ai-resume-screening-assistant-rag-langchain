@@ -4,11 +4,6 @@ An AI-powered **resume screening and candidate ranking system** that
 uses **RAG, semantic search, and a local LLM** to evaluate resumes
 against a Job Description.
 
- **[Live Streamlit
-Demo](https://ai-resume-screening-assistant-rag-langchain-4kkvqwmjm92h2jmfwo.streamlit.app/)**\
-**[GitHub
-Repository](https://github.com/ARCHITTOMAR15/ai-resume-screening-assistant-rag-langchain)**
-
 <table>
 <tr>
 <td width="55%" valign="middle">
@@ -27,7 +22,7 @@ GitHub Repository
 
 <td width="45%" align="right">
 
-<img src="streamlit_ui.png" width="350">
+<img src="streamlit_ui.png" width="500">
 
 </td>
 </tr>

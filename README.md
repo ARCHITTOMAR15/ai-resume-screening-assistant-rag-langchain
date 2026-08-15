@@ -4,30 +4,30 @@ An AI-powered **resume screening and candidate ranking system** that
 uses **RAG, semantic search, and a local LLM** to evaluate resumes
 against a Job Description.
 
-🚀 **[Live Streamlit
+ **[Live Streamlit
 Demo](https://ai-resume-screening-assistant-rag-langchain-4kkvqwmjm92h2jmfwo.streamlit.app/)**\
-📂 **[GitHub
+**[GitHub
 Repository](https://github.com/ARCHITTOMAR15/ai-resume-screening-assistant-rag-langchain)**
 
 
 ------------------------------------------------------------------------
 
-## ⭐ Key Features
+##  Key Features
 
--   📄 Upload **multiple resume PDFs**
--   📝 Enter a **Job Description**
--   🔎 Retrieve relevant resume content using **semantic search**
--   🧠 Evaluate candidates using a **local Qwen 0.5B Instruct LLM**
--   📊 Generate a **0--100 match score**
--   ✅ Identify **matching skills**
--   ❌ Identify **missing skills**
--   🏆 Rank candidates by match score
--   🎯 Generate **Hire / Shortlist / Reject** recommendations
--   🌐 Deployed using **Streamlit**
+-    Upload **multiple resume PDFs**
+-    Enter a **Job Description**
+-    Retrieve relevant resume content using **semantic search**
+-    Evaluate candidates using a **local Qwen 0.5B Instruct LLM**
+-    Generate a **0--100 match score**
+-    Identify **matching skills**
+-    Identify **missing skills**
+-    Rank candidates by match score
+-    Generate **Hire / Shortlist / Reject** recommendations
+-    Deployed using **Streamlit**
 
 ------------------------------------------------------------------------
 
-## 🧠 RAG Architecture
+##  RAG Architecture
 
 ``` text
        Resume PDFs
@@ -75,7 +75,7 @@ Repository](https://github.com/ARCHITTOMAR15/ai-resume-screening-assistant-rag-l
 
 ------------------------------------------------------------------------
 
-## 🔍 How It Works
+##  How It Works
 
 ### 1. Resume Processing
 
@@ -115,73 +115,16 @@ Recommendations are restricted to:
 
 ------------------------------------------------------------------------
 
-## 📊 Example Output
-
-For a Data Scientist role requiring:
-
-`Python · Machine Learning · SQL · Pandas · Scikit-learn · TensorFlow · Docker`
-
-Example result:
-
-  Candidate        Match Score Recommendation
-  -------------- ------------- ----------------
-  Aarav Sharma      **75/100** **Shortlist**
-
-**Matching skills:** Python, Machine Learning, SQL, Pandas,
-Scikit-learn, TensorFlow, Docker
-
-The system ranks candidates based on their match score and identifies
-the highest-ranked candidate.
-
 ------------------------------------------------------------------------
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Python** · **LangChain** · **RAG** · **FAISS** · **Hugging Face
 Transformers** · **Sentence Transformers** · **Qwen 0.5B Instruct** ·
 **Pydantic** · **PyPDFLoader** · **Streamlit**
 
 ------------------------------------------------------------------------
-
-## 📁 Project Structure
-
-``` text
-ai-resume-screening-assistant-rag-langchain/
-│
-├── data/
-│   └── resumes/
-│
-├── notebooks/
-│   └── resume_assistant_langchain.ipynb
-│
-├── src/
-│
-├── app.py
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
-------------------------------------------------------------------------
-
-## 🚀 Run Locally
-
-``` bash
-git clone https://github.com/ARCHITTOMAR15/ai-resume-screening-assistant-rag-langchain.git
-
-cd ai-resume-screening-assistant-rag-langchain
-
-pip install -r requirements.txt
-
-streamlit run app.py
-```
-
-> The application uses a local Qwen model configured through
-> `QWEN_MODEL_PATH`. The embedding model is `all-MiniLM-L6-v2`.
-
-------------------------------------------------------------------------
-
-## 🎯 What This Project Demonstrates
+## What This Project Demonstrates
 
 **PDF Processing → RAG → Embeddings → Vector Search → LLM → Structured
 Output → Candidate Ranking → Deployment**
@@ -192,7 +135,7 @@ conversational chatbot.
 
 ------------------------------------------------------------------------
 
-## 👨‍💻 Author
+##  Author
 
 **Archit Tomar**
 

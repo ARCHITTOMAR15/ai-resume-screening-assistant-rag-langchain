@@ -9,6 +9,9 @@ Demo](https://ai-resume-screening-assistant-rag-langchain-4kkvqwmjm92h2jmfwo.str
 📂 **[GitHub
 Repository](https://github.com/ARCHITTOMAR15/ai-resume-screening-assistant-rag-langchain)**
 
+
+![Streamlit Application]("Screenshot 2026-08-15 152049.png)
+
 ------------------------------------------------------------------------
 
 ## ⭐ Key Features

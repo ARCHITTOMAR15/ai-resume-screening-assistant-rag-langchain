@@ -6,7 +6,7 @@ against a Job Description.
 
 <table>
 <tr>
-<td width="55%" valign="middle">
+<td width="60%" valign="middle">
 
 🚀 <a href="https://ai-resume-screening-assistant-rag-langchain-4kkvqwmjm92h2jmfwo.streamlit.app/">
 Live Streamlit Demo
@@ -20,9 +20,9 @@ GitHub Repository
 
 </td>
 
-<td width="55%" align="right">
+<td width="60%" align="right">
 
-<img src="streamlit_ui.png" width="700">
+<img src="streamlit_ui.png" width="750">
 
 </td>
 </tr>
